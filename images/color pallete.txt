@@ -1,0 +1,6 @@
+color pallete
+0f2f6c
+2b528c
+7f74aa
+cea1ca
+f3ced3

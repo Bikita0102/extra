@@ -1,0 +1,151 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f3ced3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.imageHeader {
+  padding-left: 20px;
+}
+header {
+  background-color: #f3ced3;
+  text-align: center;
+  padding: 1em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  font-family: "Cormorant Unicase", serif;
+  font-size: large;
+
+  width: 27.1%;
+}
+
+li a {
+  display: block;
+  float: left;
+
+  color: #190019;
+  text-decoration: none;
+  text-align: left;
+  padding: 14px 16px;
+}
+li a:hover {
+  background-color: #cdb4db;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em;
+}
+
+.column {
+  flex: 1;
+  padding: 1em;
+  text-align: center;
+  background-color: #b7909686;
+  border-radius: 10px;
+  margin: 1em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background-color: #cea1ca;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-content: end;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding-top: 15px;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  background-color: #b7909686;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  color: #333;
+}
+
+.enquirybox {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.submit {
+  width: 100%;
+  height: 50px;
+  background-color: #242323;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #111;
+}
+
+.footercontainer {
+  width: 100%;
+  padding: 70px 20px 30px;
+}
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
+.socialicons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialicons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+/*hover effect*/
+.socialicons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialicons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
